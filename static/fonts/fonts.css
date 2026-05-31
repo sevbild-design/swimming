@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Poppins;
+  src:
+    url('/static/fonts/PoppinsCyr-Regular.woff2') format('woff2'),
+    url('/static/fonts/PoppinsCyr-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Poppins;
+  src:
+    url('/static/fonts/PoppinsCyr-Bold.woff2') format('woff2'),
+    url('/static/fonts/PoppinsCyr-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+}
