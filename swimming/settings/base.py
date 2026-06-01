@@ -77,10 +77,20 @@ WSGI_APPLICATION = 'swimming.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "default_db",
+        "USER": "gen_user",
+        "PASSWORD": "ATRcN<Vgk0LmRZ",
+        "HOST": "7c8dcf2314de972a59b18821.twc1.net",
+        "PORT": "5432",
     }
 }
 
