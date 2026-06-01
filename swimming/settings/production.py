@@ -7,6 +7,8 @@ ALLOWED_HOSTS = [
     'www.wantedpa.pythonanywhere.com/'
 ]
 
+STATIC_ROOT = '/home/wantedpa/swimming/static'
+
 # Безопасность в продакшене
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
