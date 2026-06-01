@@ -2,7 +2,7 @@ from swimming.settings.base import *
 
 
 DEBUG = False
-ALLOWED_HOSTS = ['89.108.76.34']
+ALLOWED_HOSTS = ['89.108.76.143']
 
 STATIC_ROOT = '/root/swimming/static'
 STATIC_URL = '/static/'
