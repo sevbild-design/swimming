@@ -4,11 +4,6 @@ from swimming.settings.base import *
 DEBUG = False
 ALLOWED_HOSTS = ['194.226.142.39']
 
-# STATIC_ROOT = '/var/www/swimming_static'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
-# # Безопасность в продакшене
-# SECURE_SSL_REDIRECT = True
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
