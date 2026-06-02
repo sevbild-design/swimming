@@ -4,7 +4,7 @@ html {
 
 @media (max-width: 500px) {
   html {
-    font-size: 4px;
+    font-size: 7px;
   }
 }
 
@@ -22,7 +22,7 @@ html {
   display: flex;
   gap: 3rem;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.1rem;
   text-shadow: 0.2rem 0.2rem 0.2rem #030e21;
@@ -41,8 +41,8 @@ html {
   text-transform: uppercase;
   font-weight: 700;
   color: #294a9f;
-  font-size: 2rem;
-  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
   /* text-shadow: 0.2rem 0.2rem 0.2rem #20438A; */
   text-shadow:
     0 0 5px whitesmoke,
@@ -81,8 +81,8 @@ html {
 
 @media (max-width: 500px) {
   .main-info__img {
-    width: 50%;
-    margin-right: 15%;
+    width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -110,28 +110,37 @@ html {
 @media (max-width: 500px) {
   .main-info__h2 {
     font-size: 2rem;
-}
+    margin-bottom: 1rem;
+  }
 }
 
 .main-info__h1 {
   font-weight: 700;
   font-size: 5rem;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 3rem;
 }
 
 @media (max-width: 500px) {
   .main-info__h1 {
-    font-size: 3.5rem;
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
   }
 }
 
 .main-info__separator {
-width: 25rem;
-height: 0.3rem;
-background: #F8E7A1; */
+  width: 25rem;
+  height: 0.3rem;
+  background: #f8e7a1;
 }
 
+@media (max-width: 500px) {
+  .main-info__separator {
+    width: 15rem;
+    height: 0.3rem;
+    background: #f8e7a1;
+  }
+}
 
 .main-info__achievements {
   display: flex;
@@ -175,4 +184,3 @@ background: #F8E7A1; */
   justify-self: end;
 }
 /* Rectangle 6 */
-
