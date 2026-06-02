@@ -69,11 +69,10 @@ html {
 
 .main-info__img {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
+  top: -6rem;
+  right: 0px;
+  width: 43%;
   margin-right: 12%;
-  /* height: 40rem; */
   object-fit: cover;
   object-position: top;
   z-index: -1;
@@ -81,8 +80,10 @@ html {
 
 @media (max-width: 500px) {
   .main-info__img {
-    width: 100%;
-    margin-right: 0;
+    width: 70%;
+    margin-right: 1rem;
+    height: 62rem;
+    top: -2rem;
   }
 }
 
@@ -96,7 +97,7 @@ html {
 @media (max-width: 500px) {
   .main-info__about {
     padding: 6rem 0;
-    height: 50rem;
+    height: 58rem;
   }
 }
 
@@ -110,7 +111,7 @@ html {
 @media (max-width: 500px) {
   .main-info__h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -118,13 +119,13 @@ html {
   font-weight: 700;
   font-size: 5rem;
   color: #ffffff;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 500px) {
   .main-info__h1 {
     font-size: 4.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -132,13 +133,31 @@ html {
   width: 25rem;
   height: 0.3rem;
   background: #f8e7a1;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 500px) {
   .main-info__separator {
-    width: 15rem;
+    width: 10rem;
     height: 0.3rem;
-    background: #f8e7a1;
+    margin-bottom: 4rem;
+  }
+}
+
+.main-info__text {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #868490;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .main-info__text {
+    display: block;
+    max-width: 20rem;
+    font-size: 2rem;
+    color: #868490;
+    margin-bottom: 1rem;
   }
 }
 
